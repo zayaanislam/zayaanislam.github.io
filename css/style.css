@@ -11,6 +11,13 @@ h1{
   line-height: 50%;
   text-shadow: .5px .5px #000000;
 }
+
+#outfits-title{
+  text-align: center;
+  line-height: 50%;
+  text-shadow: .5px .5px #000000;
+  /
+}
 #sidebar{
   background-color: #f1f2f6;
   width: 200px;
