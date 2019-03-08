@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title> Zayaan Islam </title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id='sidebar'>
+
+      <ul>
+        <li><a href='#'>OUTFITS</a></li>
+        <li><a href='#'>MUSIC</a></li>
+        <li><a href='#'>SHOP</a></li>
+        <li><a href='#'>CONTACT</a></li>
+
+      </ul>
+      <div id='sidebar-button'>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <h1> outfits </h1>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('#sidebar-button').click(function(){
+      $('#sidebar').toggleClass('visible');
+    });
+  });
+  </script>
+  </body>
+</html>
